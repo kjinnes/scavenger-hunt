@@ -1,39 +1,31 @@
-# TypeScript Example
+# Scavenger Hunt App
 
-<p>
-  <!-- iOS -->
-  <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  <!-- Android -->
-  <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-  <!-- Web -->
-  <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-</p>
+## Play
+### User Stories
+- Scan a QR code or enter numbers to start the game
+- You will be given a clue, which will lead you to an object.
+- Once you reach the object, you will scan a QR code or enter the code provided.
+- You will then be asked to complete a task:
+> - Photo: Take a selfie, as specified
+> - Find: Find a specific item or items, and take a picture of it/them
+> - Truth: Answer a question in the text box
+> - Dare: Perform a TaskMaster style task. May or may not require photo proof.
 
-```sh
-npx create-react-native-app -t with-typescript
-```
+## Create
+### User Stories
+- You will have the option to print QR codes or use code numbers. The code numbers can be written on post-it notes if the user doesn't have a printer available.
+- You can create your own riddles or choose from the pre-made riddles.
+- You can create your own tasks, truths, and dares, or choose from the pre-made selection.
 
-TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
-
-## 🚀 How to use
-
-#### Creating a new project
-
-- Install the CLI: `npm i -g expo-cli`
-- Create a project: `npx create-react-native-app -t with-typescript`
-- `cd` into the project
-
-### Adding TypeScript to existing projects
-
-- Create a blank TypeScript config: `touch tsconfig.json`
-- Run `expo start` to automatically configure TypeScript
-- Rename files to TypeScript, `.tsx` for React components and `.ts` for plain typescript files
-
-> 💡 You can disable the TypeScript setup in Expo CLI with the environment variable `EXPO_NO_TYPESCRIPT_SETUP=1 expo start`
-
-## 📝 Notes
-
-- [Expo TypeScript guide](https://docs.expo.io/versions/latest/guides/typescript/)
+### To do
+- Set up back-end and database
 
 # Sources
-Animation: https://lottiefiles.com/user/707715
+Animations: 
+- https://lottiefiles.com/
+- https://lottiefiles.com/user/707715
+- https://lottiefiles.com/44850-mrz-detection-light-theme
+
+# Resources
+- https://www.npmjs.com/package/react-native-qrcode-svg
+- https://pureoxygenlabs.com/how-to-create-a-qr-codes-that-deep-link-to-your-mobile-app/

@@ -1,0 +1,1 @@
+export const GET_HUNT: string = 'GET_HUNT';
