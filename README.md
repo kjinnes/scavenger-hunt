@@ -10,6 +10,8 @@
 > - Find: Find a specific item or items, and take a picture of it/them
 > - Truth: Answer a question in the text box
 > - Dare: Perform a TaskMaster style task. May or may not require photo proof.
+- When the hunt is over, you can see the pictures submitted and the text answers provided, as well as scores. 
+- It is scored based on time, as well as the number of tasks submitted and hints required.
 
 ## Create
 ### User Stories

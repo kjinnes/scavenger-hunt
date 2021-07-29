@@ -6,3 +6,4 @@ export const getHunt = createAsyncThunk(GET_HUNT, async () => {
   const response = await hunt;
   return response;
 })
+

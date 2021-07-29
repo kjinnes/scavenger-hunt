@@ -4,6 +4,7 @@ const defaultRiddles = {
   keyboard: {
     label: 'Keyboard',
     riddle: 'Can you find something which has keys that open no locks, with space but no room and allows you to enter but not go in?',
+    image: require('../assets/keyboard.png'),
   },
   clock: {
     label: 'Clock',
