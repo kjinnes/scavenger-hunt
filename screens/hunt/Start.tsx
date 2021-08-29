@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 import { Button, ProgressBar } from 'react-native-paper';
-import { useAppDispatch, useAppSelector } from '../../redux/hooks';
+import { useAppDispatch, useAppSelector, useAppThunkDispatch } from '../../redux/hooks';
 import { getHunt } from '../../redux/actions/hunt';
 import { setStart } from '../../redux/actions/current';
 import { IHunt } from '../../interfaces/IHunt';
@@ -12,12 +12,13 @@ import Task from '../../components/Task';
 
 const Start = () => {
   const dispatch = useAppDispatch()
+  const thunkDispatch = useAppThunkDispatch();
   const hunt: IHunt = useAppSelector((state) => state.hunt);
   const current: ITask = useAppSelector((state) => state.current);
   const progress = 2;
 
   useEffect(() => {
-    if (!hunt) dispatch(getHunt());
+    if (!hunt) thunkDispatch(getHunt());
   }, []);
 
   useEffect(() => {
